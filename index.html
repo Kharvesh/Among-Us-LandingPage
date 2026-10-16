@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Among Us Live · Spark Club · IIIT Bhopal</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <symbol id="crew" viewBox="8 6 76 102">
+          <clipPath id="cb">
+            <path
+              d="M26 34a24 24 0 0 1 48 0v64q0 6-6 6h-10q-6 0-6-6v-4h-12v4q0 6-6 6h-2q-6 0-6-6z"
+            />
+          </clipPath>
+          <rect
+            x="14"
+            y="50"
+            width="16"
+            height="40"
+            rx="7"
+            fill="currentColor"
+            stroke="#1B1F3A"
+            stroke-width="4"
+          />
+          <path
+            d="M26 34a24 24 0 0 1 48 0v64q0 6-6 6h-10q-6 0-6-6v-4h-12v4q0 6-6 6h-2q-6 0-6-6z"
+            fill="currentColor"
+          />
+          <circle
+            cx="82"
+            cy="92"
+            r="40"
+            fill="#000"
+            opacity=".16"
+            clip-path="url(#cb)"
+          />
+          <path
+            d="M26 34a24 24 0 0 1 48 0v64q0 6-6 6h-10q-6 0-6-6v-4h-12v4q0 6-6 6h-2q-6 0-6-6z"
+            fill="none"
+            stroke="#1B1F3A"
+            stroke-width="4"
+            stroke-linejoin="round"
+          />
+          <rect
+            x="44"
+            y="30"
+            width="36"
+            height="24"
+            rx="12"
+            fill="#A9E2F8"
+            stroke="#1B1F3A"
+            stroke-width="4"
+          />
+          <rect
+            x="53"
+            y="35"
+            width="14"
+            height="5"
+            rx="2.5"
+            fill="#fff"
+            opacity=".9"
+          />
+        </symbol>
+      </defs>
+    </svg>
+
+    <nav>
+      <div class="wrap">
+        <a href="#top" class="logo"
+          ><svg style="color: #f45858"><use href="#crew" /></svg>Spark Club</a
+        >
+        <ul>
+          <li><a class="l" href="#about">About</a></li>
+          <li><a class="l" href="#how">How it works</a></li>
+          <li><a class="l" href="#tasks">Tasks</a></li>
+          <li><a class="l" href="#details">Details</a></li>
+          <li>
+            <a
+              class="btn red"
+              style="padding: 6px 18px; box-shadow: 0 3px 0 var(--line)"
+              href="#register"
+              >Register</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="wrap">
+        <div class="window">
+          <div class="planet p1"></div>
+          <div class="planet p2"></div>
+          <div>
+            <span class="tag">Spark Club presents · IIIT Bhopal</span>
+            <h1>Among Us <span>Live</span><br />Who's the Impostor?</h1>
+            <p class="lead">
+              Among Us in real life. One campus, 200 crewmates and a few sneaky
+              impostors. Complete tasks, spot the sus, and win the vote at IIIT
+              Bhopal's biggest live game.
+            </p>
+            <div class="facts">
+              <span>📅 22 Nov 2026</span><span>📍 IIIT Bhopal Campus</span
+              ><span>👥 200 seats</span><span>🎟️ Free entry</span>
+            </div>
+            <a href="#register" class="btn">Registration</a>
+          </div>
+          <div class="panel">
+            <button
+              class="eb"
+              id="eb"
+              aria-label="Press the emergency button to call a meeting"
+            >
+              <span class="plate"></span><span class="base"></span
+              ><span class="dome"></span><span class="glass"></span>
+            </button>
+            <b>EMERGENCY MEETING</b>
+            <p class="hint">Press the big red button ↑</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="wrap">
+        <span class="tag">Mission briefing</span>
+        <h2>What is this event?</h2>
+        <p class="sub">
+          A live-action, campus-wide version of Among Us. You and 199 others
+          walk around real task stations, impostors secretly tag crewmates, and
+          everyone argues in emergency meetings until someone gets ejected.
+        </p>
+        <div class="grid">
+          <div class="card">
+            <div class="ic" style="--c: var(--red)">
+              <svg class="crew"><use href="#crew" /></svg>
+            </div>
+            <h3>Crewmates</h3>
+            <p>
+              Walk the campus completing real tasks, watch who acts suspicious,
+              report tagged players and vote out the impostors.
+            </p>
+          </div>
+          <div class="card">
+            <div class="ic" style="--c: var(--purple)">
+              <svg class="crew"><use href="#crew" /></svg>
+            </div>
+            <h3>Impostors</h3>
+            <p>
+              Blend in, fake tasks, tag crewmates, trigger sabotages and lie
+              with a straight face. Don't get voted out!
+            </p>
+          </div>
+          <div class="card">
+            <div class="ic" style="--c: var(--yellow)">
+              <svg class="crew"><use href="#crew" /></svg>
+            </div>
+            <h3>Prizes &amp; glory</h3>
+            <p>
+              Trophies and goodies for the top crew and best impostor, plus a
+              lifetime of bragging rights.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="alt">
+      <div class="wrap">
+        <span class="tag">The plan</span>
+        <h2>What will happen</h2>
+        <p class="sub">
+          The event runs in four stages across the day. Just bring your college
+          ID and comfortable shoes.
+        </p>
+        <div class="steps">
+          <div class="step" style="--c: var(--blue)">
+            <h3>Check-in</h3>
+            <p>
+              10:00 AM. Collect your wristband, get your secret role card and
+              hear the safety briefing.
+            </p>
+          </div>
+          <div class="step" style="--c: var(--green)">
+            <h3>Qualifiers</h3>
+            <p>
+              10 rounds of 20 players each roam the campus zones. Top survivors
+              from every round advance.
+            </p>
+          </div>
+          <div class="step" style="--c: var(--yellow)">
+            <h3>Semi-finals</h3>
+            <p>
+              Two tense rounds with fewer tasks, more sabotage and louder
+              arguments.
+            </p>
+          </div>
+          <div class="step" style="--c: var(--red)">
+            <h3>The Finale</h3>
+            <p>
+              The final round plays out in the main arena with everyone
+              watching. Winners are announced on stage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tasks">
+      <div class="wrap">
+        <span class="tag">Your missions</span>
+        <h2>Tasks you'll do</h2>
+        <p class="sub">
+          Real tasks at real stations. Volunteers run each task zone across the
+          campus and tick you off when you finish.
+        </p>
+        <h3 class="f" style="font-size: 1.6rem; margin-bottom: 18px">
+          Crewmate tasks
+        </h3>
+        <div class="grid">
+          <div class="card">
+            <h3>🔌 Fix Wiring</h3>
+            <p>
+              Match the coloured wires on a panel board to their matching ends
+              before the timer runs out.
+            </p>
+          </div>
+          <div class="card">
+            <h3>💾 Download Data</h3>
+            <p>
+              Scan the QR code at one station, then find and scan the upload
+              station on the other side of campus.
+            </p>
+          </div>
+          <div class="card">
+            <h3>⛽ Fuel Engines</h3>
+            <p>
+              Carry a cup of water between two stations without spilling and
+              fill the tank to the marked line.
+            </p>
+          </div>
+          <div class="card">
+            <h3>💳 Swipe Card</h3>
+            <p>
+              Swipe your task card through the reader at just the right speed.
+              Too fast or too slow and you retry.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🧩 Solve the Riddle</h3>
+            <p>
+              Crack a campus puzzle or trivia question to open the lock box and
+              claim your task stamp.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🗑️ Clean the Filter</h3>
+            <p>
+              Sort coloured balls into the correct bins within the time limit to
+              clear the vents.
+            </p>
+          </div>
+        </div>
+        <h3 class="f" style="font-size: 1.6rem; margin: 46px 0 18px">
+          Impostors, sabotage &amp; meetings
+        </h3>
+        <div class="grid">
+          <div class="card">
+            <h3>🔪 The Tag</h3>
+            <p>
+              Impostors gently tap a crewmate's shoulder and show their secret
+              card. The tagged player sits down on the spot as a "body" until
+              someone reports them. Then they become a ghost who can still
+              finish tasks.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🚨 Sabotage</h3>
+            <p>
+              Volunteers announce a sabotage such as Reactor Meltdown. Two
+              crewmates must scan two far-apart stations at the same time within
+              2 minutes, or the crew loses the round.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🗳️ Emergency Meeting</h3>
+            <p>
+              Report a body or hit the button at the Main Auditorium table.
+              Everyone gathers, debates for 2 minutes and votes. The most-voted
+              player is ejected.
+            </p>
+          </div>
+        </div>
+        <p class="sub" style="margin: 30px 0 0">
+          <b>How to win:</b> crewmates win by finishing all tasks or ejecting
+          every impostor. Impostors win when they equal the number of crewmates,
+          or when a sabotage goes unfixed.
+        </p>
+      </div>
+    </section>
+
+    <section id="details">
+      <div class="wrap">
+        <span class="tag">Need to know</span>
+        <h2>Event details</h2>
+        <p class="sub">Everything you need before you hit register.</p>
+        <div class="grid">
+          <div class="card">
+            <div class="big">200</div>
+            <h3>Participants</h3>
+            <p>
+              Only 200 students can play. Seats are first come, first served.
+              Solo entry, no teams.
+            </p>
+          </div>
+          <div class="card">
+            <div class="big">20</div>
+            <h3>Players per round</h3>
+            <p>
+              Ten qualifier rounds. Each round has 3 impostors and 17 crewmates.
+            </p>
+          </div>
+          <div class="card">
+            <div class="big">₹0</div>
+            <h3>Entry fee</h3>
+            <p>
+              Free for all IIIT Bhopal students. Valid college ID required at
+              check-in.
+            </p>
+          </div>
+          <div class="card">
+            <h3>📅 When</h3>
+            <p>22 November 2026<br />10:00 AM to 4:00 PM</p>
+          </div>
+          <div class="card">
+            <h3>📍 Where</h3>
+            <p>
+              Main Auditorium as the meeting point, plus task zones across the
+              IIIT Bhopal campus
+            </p>
+          </div>
+          <div class="card">
+            <h3>📜 Rules</h3>
+            <p>
+              Walk, don't run. Light taps only, never rough. Don't show your
+              role card, and respect the volunteers' decisions. Play fair, lie
+              fair.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="alt">
+      <div class="wrap reg">
+        <div>
+          <span class="tag">Join the crew</span>
+          <h2>Register now</h2>
+          <p class="sub" style="margin-bottom: 20px">
+            Pick your wristband colour, fill in the form and lock your seat.
+            Only 200 spots.
+          </p>
+          <svg class="crew preview" id="pv" style="--c: #f45858">
+            <use href="#crew" />
+          </svg>
+        </div>
+        <div>
+          <form id="form" novalidate>
+            <label
+              >Full name<input name="name" required autocomplete="name"
+            /></label>
+            <label>Enrollment no.<input name="enr" required /></label>
+            <label
+              >College email<input
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+            /></label>
+            <label
+              >Crew nickname<input name="ign" required maxlength="10"
+            /></label>
+            <label
+              >Year<select name="year">
+                <option>1st year</option>
+                <option>2nd year</option>
+                <option>3rd year</option>
+                <option>4th year</option>
+              </select></label
+            >
+            <label
+              >Phone number<input
+                name="phone"
+                type="tel"
+                required
+                autocomplete="tel"
+            /></label>
+            <div class="full">
+              <div
+                style="font-weight: 600; font-size: 0.92rem; margin-bottom: 8px"
+              >
+                Choose your wristband colour
+              </div>
+              <div class="swatches" id="sw"></div>
+            </div>
+            <label
+              class="full"
+              style="flex-direction: row; align-items: center; font-weight: 500"
+              ><input
+                type="checkbox"
+                required
+                style="width: 20px; height: 20px"
+              />
+              I'm an IIIT Bhopal student and will carry my ID.</label
+            >
+            <button class="btn red full" type="submit">Lock my seat 🚀</button>
+          </form>
+          <div class="ok card" id="ok">
+            <h3 class="f" style="font-size: 2rem">You're on the ship!</h3>
+            <p id="okmsg" style="margin-top: 8px"></p>
+            <p style="margin-top: 8px; color: var(--muted)">
+              Check your email for the lobby details.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        Organised by <b>Spark Club</b>, IIIT Bhopal · Not affiliated with
+        Innersloth · Trust no one.
+      </div>
+    </footer>
+
+    <!-- MEETING -->
+    <div
+      id="meet"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Emergency meeting"
+    >
+      <div class="flash"></div>
+      <button class="btn" id="skip">Skip ✕</button>
+      <div id="s1" class="scene on">
+        <h2>EMERGENCY<br />MEETING!</h2>
+      </div>
+      <div id="s2" class="scene">
+        <div class="bubble" id="bub">
+          <b id="who"></b><span id="say"></span>
+        </div>
+        <div class="row" id="row"></div>
+      </div>
+      <div id="s3" class="scene">
+        <div class="vs">Who's going to register?</div>
+        <div class="row" id="row2"></div>
+        <div class="vote">
+          <button class="btn red" id="yes">Vote: Register ✔</button>
+        </div>
+        <div class="bar"><i id="fill"></i></div>
+        <p class="hint" style="color: #b8bcda; margin-top: 10px">
+          Taking you to the registration form…
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
